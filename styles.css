@@ -12,11 +12,11 @@ body {
 .card {
   width: 350px;
   height: 110vh;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 8px;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.414);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,13 +123,6 @@ p {
   
   
  
-}
-iframe{
-  /* position: absolute;
-  width: 330px;
-  height: 130px;
-  right : 170px ; */
-  z-index: 20;
 }
 
 h4 {
