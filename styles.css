@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-color: #f4f4f4;
+}
+
+.card {
+  width: 350px;
+  height: 110vh;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container-logo {
+  width: 100%;
+}
+.logo {
+  width: 110px;
+  margin-bottom: 1px;
+}
+.container-seller {
+  width: 100%;
+  background: rgb(222, 21, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 21, 21, 0.006039915966386533) 11%,
+    rgba(227, 9, 9, 1) 83%
+  );
+}
+
+.photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-box div {
+  width: auto;
+  height: 25px;
+  background-color: #d3d3d3;
+  padding: 2px;
+  margin: 10px 10px;
+  border-radius: 8px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  padding: 3px;
+  margin: 0;
+}
+
+.contact-info a {
+  color: #101011;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.card-footer {
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f90808;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(74, 71, 71)
+}
+.map-box {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.map-box img{ 
+ 
+  width: 320px;
+  height: 125px;
+  border: rgba(9, 9, 9, 0.369) 1px;
+  border-radius: 5px;
+  
+  
+ 
+}
+iframe{
+  /* position: absolute;
+  width: 330px;
+  height: 130px;
+  right : 170px ; */
+  z-index: 20;
+}
+
+h4 {
+  margin: 5px;
+}
+h3 {
+  margin: 5px;
+}
+h2 {
+  margin: 3px;
+}
+
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  color: #333;
+  font-size: 20px;
+}
+
+.social-media a:hover {
+  color: rgb(74, 71, 71)
+  ;
+}

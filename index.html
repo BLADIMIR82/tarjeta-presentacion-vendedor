@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Perez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="card" id="businessCard">
+        <div class="container-logo">
+            <img src="./assets/logo_empresa.jpg" alt="Logo Empresa" class="logo">
+        </div>
+        <h2>Nombre de la Empresa</h2>
+        <div class="container-seller">
+            <img src="./assets/foto_vendedor.jpg" alt="Foto del Vendedor" class="photo">
+        </div>
+        <h3>Juan Pérez <br> Asesor Comercial</h3>
+        <h4>Ferreteria xxx xxxx</h4>
+        <div class="contact-info">
+            <div class="info-box">
+                <div><p><i class="fas fa-phone"></i>  <a href="tel:+1234567890">3003003030</a></p></div>
+                <div><p><i class="fas fa-envelope"></i> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bladimirrojassepulveda@gmail.com" target="_blank">bladimirrojassepulveda@gmail.com</a></p></div>
+                <div><p><i class="fa fa-comment" aria-hidden="true"></i> <a href="https://wa.me/1234567890" target="_blank">Contactar por WhatsApp</a></p></div>
+                <div><p><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/Unisur/@4.5846032,-74.2089883,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9fd1e2bb0acb:0xecdedcdf30215bf!8m2!3d4.5845979!4d-74.2064134!16s%2Fg%2F1tfjrrtj?hl=es&entry=ttu" target="_blank">calle 1 # 1 - 1 bis</a></p></div>
+                <div><p><i class="fa fa-cart-plus" aria-hidden="true"></i>  <a href="https://wa.me/1234567890" target="_blank">Nuestra tienda virtual</a></p></div>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <div class="map-box" id="imageMap">
+            <img src="./assets/imagen-mapa.PNG" alt="">
+            <!-- <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2390454791036!2d-122.40641738467755!3d37.785834779757624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858167b8a1df3b%3A0x2c3c095b2f3e7b3e!2sGoogle!5e0!3m2!1sen!2sus!4v1594701720747!5m2!1sen!2sus"
+                width="100%"
+                height="100"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+            ></iframe> -->
+        </div>
+
+
+        <div class="card-footer">
+            <a href="#" class="button" id="downloadButton" onclick="downloadPDF()">Descargar Tarjeta</a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
