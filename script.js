@@ -7,8 +7,9 @@ function downloadPDF() {
         margin: 1,
         filename: 'tarjeta_presentacion_Juan_Perez.pdf',
         image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { scale: 4 },
-        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+        html2canvas: { scale: 2 },
+        // jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+        jsPDF: { unit: 'in', format: 'b5', orientation: 'portrait' }
     }).then(() => {
         button.style.display = 'block'; // Volver a mostrar el botón
     });
